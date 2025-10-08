@@ -1,4 +1,4 @@
-import perrson1, person2, person3, person4
+import domainExpansion, person2, person3, person4
 from person5 import Evaluator
 
 if __name__ == "__main__":
@@ -7,7 +7,7 @@ if __name__ == "__main__":
     module_results = {
         "Domain-Specific": {
             "sentence": "The stock is highly undervalued and will likely surge.",
-            "score": perrson1.domainExpansion("The laptop performance is excellent and the battery lasts long.")
+            "score": domainExpansion.domainExpansion("The laptop performance is excellent and the battery lasts long.")
         },
         "Negation": {
             "sentence": "The movie was not good at all.",
